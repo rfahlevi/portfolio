@@ -424,6 +424,10 @@ aside .card .icon a {
         width: 89%;
     }
 
+    #platform .content .box {
+        margin-left: 50px;
+    }
+
     #platform .content .box p {
         font-size: 16px;
     }
@@ -433,7 +437,7 @@ aside .card .icon a {
     }
 
     #explore .content .box {
-        margin-right: 90px;
+        margin-right: 100px;
     }
 
     #explore .content .box a .overlay {
