@@ -428,6 +428,19 @@ aside .card .icon a {
         font-size: 16px;
     }
 
+    #explore {
+        width: 90%;
+    }
+
+    #explore .content .box {
+        display: flex;
+        justify-content: center;
+    }
+
+    #explore .content .box a .overlay {
+        opacity: 1;
+    }
+
     nav .logo {
         z-index: -2;
     }
