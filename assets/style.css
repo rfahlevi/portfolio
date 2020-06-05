@@ -293,7 +293,7 @@ aside .card .icon a {
     }
 
     #home {
-        width: 91%;
+        width: 90%;
         flex-wrap: wrap;
     }
 
@@ -316,12 +316,12 @@ aside .card .icon a {
     }
 
     #home .banner img {
-        width: 100%;
-        margin-left: 50%;
+        width: 120%;
+        margin-left: 30%;
     }
 
     #platform {
-        width: 91%;
+        width: 90%;
     }
 
     #platform .content .box p {
