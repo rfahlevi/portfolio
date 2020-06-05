@@ -300,6 +300,7 @@ aside .card .icon a {
     #home .content {
         order: 2;
         text-align: center;
+        margin-top: -70px;
     }
 
     #home .content h1 {
@@ -321,6 +322,10 @@ aside .card .icon a {
 
     #platform {
         width: 91%;
+    }
+
+    #platform .content .box p {
+        font-size: 16px;
     }
 
     nav .logo {
