@@ -433,8 +433,7 @@ aside .card .icon a {
     }
 
     #explore .content .box {
-        display: flex;
-        justify-content: center;
+        margin-left: -30px;
     }
 
     #explore .content .box a .overlay {
