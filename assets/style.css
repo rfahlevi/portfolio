@@ -448,6 +448,10 @@ aside .card .icon a {
         font-size: 24px;
     }
 
+    nav {
+        overflow: hidden;
+    }
+
     nav .logo {
         z-index: -2;
     }
