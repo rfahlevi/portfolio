@@ -444,6 +444,10 @@ aside .card .icon a {
         opacity: 1;
     }
 
+    #explore .content .box a .overlay p {
+        font-size: 24px;
+    }
+
     nav .logo {
         z-index: -2;
     }
