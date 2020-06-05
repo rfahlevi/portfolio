@@ -294,10 +294,37 @@ aside .card .icon a {
 
     #home {
         width: 91%;
+        flex-wrap: wrap;
+    }
+
+    #home .content {
+        order: 2;
+        text-align: center;
+    }
+
+    #home .content h1 {
+        font-size: 22px;
+    }
+
+    #home .content p {
+        font-size: 18px;
+    }
+
+    #home .content a {
+        font-size: 18px;
+    }
+
+    #home .banner img {
+        width: 100%;
+        margin-left: 50%;
     }
 
     #platform {
         width: 91%;
+    }
+
+    nav .logo {
+        z-index: -2;
     }
 
     nav ul {
