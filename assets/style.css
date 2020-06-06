@@ -440,7 +440,8 @@ aside .card .icon a {
     }
 
     #explore .content .box {
-        margin: 0 auto;
+        display: block;
+        margin: 10px -50px;
     }
 
     #explore .content .box a .overlay {
