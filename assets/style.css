@@ -413,6 +413,7 @@ footer h4 {
 
     #explore .content .box a .overlay {
         opacity: 1;
+        border-radius: 20px;
     }
 
     aside {
@@ -492,6 +493,7 @@ footer h4 {
 
     #explore .content .box a .overlay {
         opacity: 1;
+        border-radius: 20px;
     }
 
     #explore .content .box a .overlay p {
