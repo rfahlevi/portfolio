@@ -393,8 +393,9 @@ aside .card .icon a {
     }
 
     #home {
-        width: 70%;
+        width: 85%;
         flex-wrap: wrap;
+        margin: 0 auto;
     }
 
     #home .content {
@@ -421,7 +422,8 @@ aside .card .icon a {
     }
 
     #platform {
-        width: 70%;
+        width: 85%;
+        margin: 10px auto;
     }
 
     #platform .content .box {
@@ -433,11 +435,12 @@ aside .card .icon a {
     }
 
     #explore {
-        width: 70%;
+        width: 85%;
+        margin: 10px auto;
     }
 
     #explore .content .box {
-        margin-right: 100px;
+        margin-left: -40px;
     }
 
     #explore .content .box a .overlay {
