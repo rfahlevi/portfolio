@@ -10,19 +10,20 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="parallax">
             <div class="logo">
-                <h4>My Portfolio</h4>
+                <a href="#home" class="page-scroll parallax">
+                    <h4>My Portfolio</h4>
+                </a>
             </div>
     
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Platform</a></li>
-                <li><a href="">Explore</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home" class="page-scroll parallax">Home</a></li>
+                <li><a href="#platform" class="page-scroll parallax">Platform</a></li>
+                <li><a href="#explore" class="page-scroll parallax">Explore</a></li>
             </ul>
     
-            <div class="toggle-menu">
+            <div class="toggle-menu parallax">
                 <input type="checkbox">
                 <span></span>
                 <span></span>
@@ -32,44 +33,67 @@
     </header>
 
     <div class="wrapper">
+        <aside>
+            <div class="card parallax">
+                <h1 class="parallax">My Profile</h1>
+                <img src="assets/image/foto-profil.jpg" class="parallax">
+                <p class="parallax">Reza Fahlevi</p>
+                <p class="parallax">Male</p>
+                <p class="parallax">23 y.o</p>
+                <p class="parallax">Junior Front End Developer</p>
+            
+                <div class="icon parallax">
+                    <h3 class="parallax" style="margin-bottom: 5px;">Contact Me</h3>
+                    <a href="" class="parallax">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="" class="parallax">
+                        <i class="fab fa-instagram"></i>
+                    </a> 
+                    <a href="" class="parallax">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
         <main>
             <section>
-                <article id="home">
+                <article id="home" class="home parallax">
                     <div class="content">
                         <h1>Front End Developer</h1>
                         <p>I am a junior front end developer, here is a the result from my hard work. Let's develops together</p>
                         <br>
-                        <a href="">Explore</a>
+                        <a href="#explore" class="page-scroll">Explore</a>
                     </div>
                     <div class="banner">
                         <img src="assets/image/banner.png">
                     </div>
                 </article>
-                <article id="platform">
-                    <header>
+                <article id="platform" class="platform parallax">
+                    <header class="parallax">
                         <h1>Platform</h1>
                     </header>
-                    <div class="content">
-                        <div class="box">
+                    <div class="content parallax">
+                        <div class="box parallax">
                             <img src="assets/image/html.png" alt="">
                             <p> <span style="font-weight: 600;">HTML5</span> is a markup language used for structuring and presenting content on the World Wide Web</p>
                         </div>
-                        <div class="box">
+                        <div class="box parallax">
                             <img src="assets/image/platform_js.png" alt="">
                             <p> <span style="font-weight: 600;">JS</span>  is a programming language that conforms to the ECMAScript specification. JavaScript is high-level and first-class functions.</p>
                         </div>
-                        <div class="box">
+                        <div class="box parallax">
                             <img src="assets/image/platform_css.png" alt="">
                             <p> <span style="font-weight: 600;">Cascading Style Sheets (CSS)</span>  is a style sheet language used for describing the presentation of a document written in a markup language like HTML</p>
                         </div>
                     </div>
                 </article>
-                <article id="explore">
-                    <header>
+                <article id="explore" class="explore parallax">
+                    <header class="parallax">
                         <h1>Explore</h1>
                     </header>
-                    <div class="content">
-                        <div class="box">
+                    <div class="content parallax">
+                        <div class="box parallax">
                             <img src="assets/image/banner-explore/box-1.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/sumbang-saran.png" class="full-box" alt="">
                             <a href="https://sumbang-saran.infotechno.id" target="_blank">
@@ -78,7 +102,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box">
+                        <div class="box parallax">
                             <img src="assets/image/banner-explore/box-2.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/company-profile.png" class="full-box" alt="">
                             <a href="https://companyprofile.netlify.app/" target="_blank">
@@ -87,7 +111,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box">
+                        <div class="box parallax">
                             <img src="assets/image/banner-explore/box-3.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -96,7 +120,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box">
+                        <div class="box parallax">
                             <img src="assets/image/banner-explore/box-4.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -105,7 +129,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box">
+                        <div class="box parallax">
                             <img src="assets/image/banner-explore/box-5.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -114,7 +138,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box" style="transform: translate(0, 0);">
+                        <div class="box parallax" style="transform: translate(0, 0);">
                             <img src="assets/image/banner-explore/box-6.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -123,7 +147,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box" style="transform: translate(0, -1px);">
+                        <div class="box parallax" style="transform: translate(0, -1px);">
                             <img src="assets/image/banner-explore/box-7.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -132,7 +156,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box" style="transform: translate(0, -1px);">
+                        <div class="box parallax" style="transform: translate(0, -1px);">
                             <img src="assets/image/banner-explore/box-8.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -141,7 +165,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="box"style="transform: translate(-1px, -1px);">
+                        <div class="box parallax" style="transform: translate(-1px, -1px);">
                             <img src="assets/image/banner-explore/box-9.png" class="part-box" alt="">
                             <img src="assets/image/banner-explore/coming-soon.png" class="full-box" alt="">
                             <a href="" class="coming-soon">
@@ -154,33 +178,13 @@
                 </article>
             </section>
         </main>
-        <aside>
-            <div class="card">
-                <h1>My Profile</h1>
-                <img src="assets/image/foto-profil.jpg">
-                <p>Reza Fahlevi</p>
-                <p>Male</p>
-                <p>23 y.o</p>
-                <p>Junior Front End Developer</p>
 
-                <div class="icon">
-                    <a href="">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-        </aside>
     </div>
 
-    <footer>
-
+    <footer class="parallax">
+        <h4 class="parallax" style="transform: translateY(15px);">My Portfolio &copy; 2020</h4>
     </footer>
+    <script src="assets/jquery-3.5.1.min.js"></script>
     <script src="assets/script.js"></script>
 </body>
 </html>

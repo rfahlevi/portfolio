@@ -6,12 +6,13 @@
 body {
     font-family: barlow;
     overflow-x: hidden;
+    background-color: #eaeaea;
 }
 
 /* Navbar */
 nav {
     display: flex;
-    background-color: #178573;
+    background: linear-gradient(to bottom, #178573 90% ,#27debf);
     justify-content: space-around;
     height: 50px;
     color: white;
@@ -26,6 +27,11 @@ nav .logo {
     font-family: lobster;
     font-size: 24px;
     margin-left: -100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 nav ul {
@@ -109,6 +115,10 @@ nav ul li a:hover {
      margin-top: 50px;
  }
 
+ main {
+     order: -1;
+ }
+
 #home {
     width: 97%;
     height: 500px;
@@ -120,6 +130,7 @@ nav ul li a:hover {
     margin: 10px;
     padding: 10px;
     font-family: barlow;
+    background-color: white;
 }
 
 #home .banner {
@@ -168,6 +179,7 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    background-color: white;
 }
 
 #platform header {
@@ -212,6 +224,7 @@ nav ul li a:hover {
     margin: 10px;
     border-radius: 20px;
     width: 97%;
+    background-color: white;
 }
 
 #explore .content {
@@ -291,11 +304,12 @@ aside .card {
     padding: 10px;
     margin: 10px;
     overflow: hidden;
-    height: 550px;  
+    height: 500px;  
     text-align: center;
     color: #333;
     border: 1px solid #178573;
     border-radius: 20px;
+    background-color: white;
 }
 
 aside .card h1 {
@@ -334,6 +348,35 @@ aside .card .icon a {
 }
 /* Aside */
 
+/* Parallax */
+.parallax {
+    opacity: 0;
+    transform: translateX(-1000px);
+    transition: .2s;
+}
+
+.parallax.show-parallax {
+    opacity: 1;
+    transform: translateX(0);
+}
+/* Parallax */
+
+/* Footer */
+footer {
+    position: sticky;
+    bottom: 0;
+    height: 50px;
+    background: linear-gradient(to top, #178573 90% ,#27DEBF);
+}
+
+footer h4 {
+    display: block;
+    text-align: center;
+    transform: translateY(15px);
+    color: white;
+    font-weight: 300;
+}
+/* Footer */
 
 /* Responsive Breakpoint */
 /* Ukuran Tablet */
@@ -365,6 +408,10 @@ aside .card .icon a {
     }
 
     #explore .content .box .full-box {
+        opacity: 1;
+    }
+
+    #explore .content .box a .overlay {
         opacity: 1;
     }
 
