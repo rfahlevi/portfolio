@@ -389,11 +389,11 @@ aside .card .icon a {
 
     aside {
         order: -2;
-        width: 100%;
+        width: 200%;
     }
 
     #home {
-        width: 89%;
+        width: 85%;
         flex-wrap: wrap;
     }
 
@@ -421,7 +421,7 @@ aside .card .icon a {
     }
 
     #platform {
-        width: 89%;
+        width: 85%;
     }
 
     #platform .content .box {
@@ -433,7 +433,7 @@ aside .card .icon a {
     }
 
     #explore {
-        width: 89%;
+        width: 85%;
     }
 
     #explore .content .box {
@@ -448,9 +448,6 @@ aside .card .icon a {
         font-size: 24px;
     }
 
-    nav {
-        overflow: hidden;
-    }
 
     nav .logo {
         z-index: -2;
